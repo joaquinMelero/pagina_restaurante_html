@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Joaquín Melero">
+
+  <title>Home</title>
+  <meta name="description" content="DIWEB">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+  <style type="text/css"> 
+
+    @import "style.css";
+
+
+  </style>
+ 
+</head>
+
+<body>
+
+  <div id="contenedor">
+
+    <header>
+      <!--Barra de menu para poner redes sociales, teléfono, dir -->
+
+      <div id="barraSocialPie" class="barraSocial">
+        <div>
+        <p class="iconosSociales">
+          <a  href="https://es-es.facebook.com"><i class="bi bi-instagram" style="color: #eca023;"></i></a>
+          <a  href="https://es-es.facebook.com"><i class="bi bi-pinterest" style="color: #eca023;"></i></a>
+          <a  href="https://es-es.facebook.com"><i class="bi bi-whatsapp" style="color: #eca023;"></i></a>
+        </p>
+        </div>
+        
+        <div class="iconosSociales" style="margin-top: 1%;">
+          <i class="bi bi-phone" style="color: #eca023;">600809000 &nbsp;  </i>
+          <i class="bi bi-house" style="color: #eca023;">&nbsp;  C/ Granada, 10</i>
+        </div>
+      </div>
+
+      <div id="cabeceraLogo">
+
+        <img src=".\img\logoTexto.png" alt="img" width="60%">
+
+      </div>
+
+
+      <!--Barra de menu navegación -->
+      <div id="navMenu">
+        <nav>
+          <ul>
+            <li><a href="#">contacto</a></li>
+            <li><a href="nosotros.html">nosotros</a></li>
+            <li><a href="platos.html">platos</a></li>
+            <li><a href="Home.html">home</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <!-- Slider con foto de mano y uvas -->
+    <div id="manoUva">
+
+      <div id="bienve">
+
+        <h2>Bienvenido a nuestro Restaurante</h2>
+
+        <a href="menu.pdf" target="_blank"><button class="button" >carta</button></a>
+
+      </div>
+    </div>
+
+    <!-- Sección de productos -->
+
+    <div id="productos" style="padding-left: 5%;">
+
+      <img src="./img/productos.png" alt="img" width="90%">
+
+    </div>
+
+    <!--Sección fotos platos-->
+
+    <div id="platos">
+
+      <div id="fotosPlatos">
+
+        <img src="./img/chef.png" alt="img" width="5%">
+
+        <p class="fuenteTitulo">"La revolución del sabor"</p>
+
+      </div>
+
+      <div style="clear:both"></div>
+
+      <div style="display: flex;">
+
+        <div>
+          <a target="_blank" href="platos.html">
+            <img src=".\img\pulpo.jpg" alt="img" width="98%" height="70%" />
+          </a>
+          <div class="letraBlanca">Pata de pulpo a la brasa</div>
+        </div>
+
+        <div>
+          <a target="_blank" href="platos.html">
+            <img src=".\img\carne.jpg" alt="img" width="98%" height="70%" />
+          </a>
+          <div class="letraBlanca">Plato de ternera de Gallega</div>
+        </div>
+
+        <div>
+          <a target="_blank" href="platos.html">
+            <img src=".\img\pescado.jpg" alt="img" width="98%" height="70%" />
+          </a>
+          <div class="letraBlanca">Corvina con salsa marinera</div>
+        </div>
+
+        <div>
+          <a target="_blank" href="platos.html">
+            <img src=".\img\postre.jpg" alt="img" width="98%" height="70%" />
+          </a>
+          <div class="letraBlanca">Crema Catalana</div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <!--Sección reseñas-->
+
+    <div id="reseñas">
+
+      <div class="estiloReseñas">
+        <p id="titulo"></p>
+      </div>
+
+    </div>
+
+
+    <!--Sección formulario reservas-->
+
+    <div id="reservas" style="padding-left: 5%;">
+
+      <div id="formulario">
+
+        <fieldset>
+          <legend>Reservas</legend>
+          <form>
+            <label>Personas:</label>
+            <input type="number" id="personas" min="1" max="30">
+            <label>Nombre:</label>
+            <input type="text" id="name"><br><br>
+            <label>Fecha:</label>
+            <input type="date" id="date" value="2023-02-15" min="2023-02-15" max="2023-12-31">
+            <label>Hora:</label>
+            <input type="time" id="time"></br><br>
+            <label>Información adicional:</label>
+            <input type="text" id="name"></br><br>
+            <input type="button" value="Reservar" class="botonReserva"">
+          
+          </br></br>
+            <p>Restaurante Aceituna</p>
+          </form>
+        </fieldset>
+
+      </div>
+
+
+    </div>
+
+     <!--Pie de página-->
+
+     <div id="pie">
+
+      <div class="piePagina, center">
+
+        <div id="pieLogo" style="margin-top: 2%;">
+          <div id="fotoLogoPie">
+           
+          </div>
+          <p style=" font-family: 'Montserrat', sans-serif; color:wheat; font-size: 100%;">
+            Restaurante Aceituna
+          </p>   
+         
+        </div>
+
+          <div id="horario" style="margin-top: 2%;">
+            <p style=" font-family: 'Montserrat', sans-serif; color:wheat; font-size: 100%;">
+              <strong>Horario</strong><br>
+              Restaurante: Lun-Sab 13:30-16:00 <br>
+                            Jue-Dom 20:00-00:00 <br>
+                          Festivos: Cerrado
+            </p>
+
+          </div>
+
+          <div id="paginas" style="margin-top: 2%;">
+            <ul style=" font-family: 'Montserrat', sans-serif; color:wheat; font-size: 100%;">
+              <li>Política de cookies</li>
+              <li>Aviso Legal</li>
+              <li>Política de privacidad</li>
+              <li>Terminos y condiciones</li>
+            </ul>
+          </div>
+          
+      </div>
+
+    </div>
+
+    <!--Barra Social de Pie de página-->
+
+    <div id="lineaSeparador">
+      
+    </div>
+
+    <div id="barraSocialPie" class="barraSocial">
+      <div>
+      <p class="iconosSociales">
+        <a  href="https://es-es.facebook.com"><i class="bi bi-instagram" style="color: #eca023;"></i></a>
+        <a  href="https://es-es.facebook.com"><i class="bi bi-pinterest" style="color: #eca023;"></i></a>
+        <a  href="https://es-es.facebook.com"><i class="bi bi-whatsapp" style="color: #eca023;"></i></a>
+      </p>
+      </div>
+      
+      <div class="iconosSociales" style="margin-top: 1%;">
+        <i class="bi bi-phone" style="color: #eca023;">600809000 &nbsp;  </i>
+        <i class="bi bi-house" style="color: #eca023;">&nbsp;  C/ Granada, 10</i>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="codigo.js"></script>
+
+</body>
+
+</html>

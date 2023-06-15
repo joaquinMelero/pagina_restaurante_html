@@ -1,0 +1,290 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+nav {
+  float: center;
+  background-color: white;
+  width: 80%;
+  margin-right: 20%;
+
+
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: right;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 180%;
+  margin: 5%;
+}
+
+nav ul li a {
+  flex-direction: row;
+  padding: 0%;
+  color: #4E3D3D;
+  text-decoration: none;
+
+}
+
+nav ul li:hover {
+  background: #eca023;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.barraSuperior {
+  background-color: #4E3D3D;
+  text-align: right;
+  height: 3.4em;
+  margin-top: 0;
+  padding-top: 1em;
+  color: white;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#cabeceraLogo {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#navMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  margin-top: -2%;
+}
+
+#manoUva {
+  background-image: url("./img/uvas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40em;
+  opacity: 0.5;
+  position: relative;
+}
+
+
+#bienve {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 15%;
+  font-size: 120%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+  display: inline-block;
+  padding: 2% 5%;
+  font-size: 110%;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #eca023;
+  border: none;
+  border-radius: 10%;
+}
+
+.button:hover {
+  background-color: #3e8e41
+}
+
+.button:active {
+  background-color: yellow;
+  transform: translateY(4px);
+}
+
+#platos {
+  background-color: #4E3D3D;
+  text-align: center;
+  padding-top: 2%;
+
+}
+
+.fuenteTitulo {
+  color: #eca023;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 220%;
+}
+
+#fotosPlatos {
+  margin: auto;
+
+}
+
+.letraBlanca {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+
+.flotante {
+  float: left;
+}
+
+#reseñas {
+
+  background-color: white;
+  text-align: center;
+
+}
+
+.estiloReseñas {
+  font-family: 'Montserrat', sans-serif;
+  color: #eca023;
+  font-size: 120%;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: 80%;
+  margin: auto;
+
+}
+
+#reservas {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./img/reserva.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 54em;
+  position: relative;
+}
+
+#formulario{
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 200%;
+  text-align: center;
+  margin-left: 25%;
+  padding-top: 8%;
+  margin-right: 25%;
+
+}
+
+.botonReserva{
+  width: 80%;
+  display: inline-block;
+  padding: 2% 5%;
+  font-size: 60%;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #eca023;
+  border: none;
+
+}
+
+.botonReserva:hover {
+  background-color: #3e8e41
+}
+
+.botonReserva:active {
+  background-color: yellow;
+  transform: translateY(4px);
+}
+
+#pie{
+  background-color: white;
+  text-align: center;
+  margin-top: 0.1%;
+
+}
+
+.piePagina{
+  background-color: #4E3D3D;
+  padding-top: 20%;
+  height: 40em;
+}
+
+.center{
+    display: flex;
+    justify-content:space-around;
+    background-color: #4E3D3D;
+  
+  }
+
+  #fotoLogoPie{
+   
+    background-image: url("./img/logo.png");
+    width: 6em;
+    height: 6em;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .lineaSeparador{
+    background-color: #fff;
+    height: 1px;
+    border-top: 1px solid white;
+    
+  }
+
+  .barraSocial{
+    background-color: #4E3D3D;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 0.1%;
+  }
+
+  .iconosSociales{
+    color: #eca023;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+
+  }
+
+  @media all and (max-width: 950px) {
+
+    nav {
+      background-color:white;
+      float: center;
+      width: 100%;
+      margin-right: 20%;
+      margin-left: 20%;
+      padding-right: 20%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      border: 2px solid #eca023;
+        
+    }
+
+
+    nav ul {
+list-style: none;
+overflow: hidden;
+}
+
+nav ul li {
+
+font-family: 'Montserrat', sans-serif;
+font-size: 150%;
+margin: 3%;
+}
+
+nav ul li a {
+
+padding: 0%;
+color: #4E3D3D;
+text-decoration: none;
+
+}
+
+  }
